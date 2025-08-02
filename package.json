@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cross-env": "^10.0.0",
+    "nodemon": "^3.1.10"
+  },
+  "name": "ramp-fe-decode-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon --require ts-node/register --watch src ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
